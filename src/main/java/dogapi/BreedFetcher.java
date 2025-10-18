@@ -13,7 +13,7 @@ public interface BreedFetcher {
      * @return list of sub breeds for the given breed
      * @throws BreedNotFoundException if the breed does not exist
      */
-    List<String> getSubBreeds(String breed);
+    List<String> getSubBreeds(String breed) throws BreedNotFoundException;;
 
 
     // TODO Task 4: make this a checked exception and update any other code as needed.
